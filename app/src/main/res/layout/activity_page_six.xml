@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".PageSix">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say Thanks to your special boy ?"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/foreground"
+        android:alpha="0.8"/>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_below="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Call"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:alpha="0.75"
+        android:textColor="@color/foreground"
+        android:background="@color/white"
+        android:elevation="20dp" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_below="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="SMS"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:alpha="0.75"
+        android:textColor="@color/foreground"
+        android:background="@color/white"
+        android:elevation="20dp" />
+
+    <Button
+        android:id="@+id/whats"
+        android:layout_below="@+id/sms"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Whatsapp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:alpha="0.75"
+        android:textColor="@color/foreground"
+        android:background="@color/white"
+        android:elevation="20dp" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_below="@+id/whats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:alpha="0.75"
+        android:textColor="@color/foreground"
+        android:background="@color/white"
+        android:elevation="20dp" />
+
+</RelativeLayout>

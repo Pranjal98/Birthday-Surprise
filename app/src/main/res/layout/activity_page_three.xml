@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".PageThree">
+
+    <ImageView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/m1for"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:padding="5dp"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/forth"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/m6for"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:layout_below="@+id/first"/>
+
+    <ImageView
+        android:id="@+id/sec"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/m2for"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:layout_below="@+id/forth"/>
+
+    <ImageView
+        android:id="@+id/fif"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/m7for"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:layout_below="@+id/sec"/>
+
+    <ImageView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/m3for"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:layout_below="@+id/fif"/>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".PageTwo">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/m1third"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/foreground"
+        android:alpha="0"
+        android:text="The day in the scorching heat of Agra, the day aftermath of the club when we couldn't talk much, even't through I wanted to.. that silent day of less talk was very close to me !
+                             \n\n  and and wanna say thanks for being my partner in amazing journey of delhi."/>
+
+    <ImageView
+        android:id="@+id/foreOne"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:elevation="10dp"
+        android:src="@drawable/m2third" />
+
+    <ImageView
+        android:id="@+id/foreTwo"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:elevation="10dp"
+        android:src="@drawable/m3third" />
+
+    <ImageView
+        android:id="@+id/foreThree"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:elevation="70dp"
+        android:alpha="0"
+        android:src="@drawable/sweetmemories" />
+
+</RelativeLayout>

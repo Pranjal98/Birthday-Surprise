@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".PageOne">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/foreground"
+        android:text="Every moment spent with you in Delhi was very memorable. I never thought I will walk this close to someone ever in life and then Delhi happened. From hanging out in the club to scrolling in the Taj to walking in the allay of DLF, every step I walked with you was like a gift."/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/first"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m4sec"
+        app:civ_border_color="@color/white"
+        android:alpha="0"
+        app:civ_border_width="5dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sec"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m2sec"
+        android:alpha="0"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/third"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m5sec"
+        android:alpha="0"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/forth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentRight="true"
+        android:elevation="20dp"
+        android:alpha="0"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m1sec"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fifth"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:alpha="0"
+        android:elevation="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m3sec"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sixth"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:elevation="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/m6sec"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dpMausam"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/white"
+        android:elevation="20dp"/>
+
+    <ImageView
+        android:id="@+id/happyBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/dpMausam"
+        android:scaleType="fitXY"
+        android:src="@drawable/happybirthday"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/happyBirthday"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/m1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/m1"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:elevation="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/m2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/m2"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:elevation="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/m3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/m3"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:elevation="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/m4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/m4"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:elevation="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/m5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:src="@drawable/m5"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mausam"
+        android:layout_below="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="65sp"
+        android:textColor="@color/foreground"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="Raquel\nMurillo !"/>
+
+</RelativeLayout>
